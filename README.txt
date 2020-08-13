@@ -4,15 +4,13 @@ INFINITY
 Niche:
 e-Commerce Site
 
-Creators:
+Group Members:
 Haseeb Ahmed Saeed (SP18-BCS-063)
 Muhammad Ameen (SP18-BCS-098)
+
+Methodology:
+Agile Development 
 
 Total Working Time:
 18 Hours Max!
 
-Site Demo:
-https://lucid-kepler-413abc.netlify.app
-
-Site CMS Demo:
-https://lucid-kepler-413abc.netlify.app/assets/cms/dashboard.html
