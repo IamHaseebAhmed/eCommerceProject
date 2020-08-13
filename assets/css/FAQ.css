@@ -1,0 +1,10 @@
+p{
+    color: lightslategrey;
+}
+.panel-title a:hover{
+    color: gray;
+}
+
+.creator {
+    color: #FFF;
+}

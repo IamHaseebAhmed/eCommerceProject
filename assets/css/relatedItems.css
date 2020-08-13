@@ -1,0 +1,144 @@
+/* Related Items */
+
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+
+.related-items-heading {
+    padding: 10px;
+    border-bottom: 2px solid orange;
+    font-size: 25px;
+}
+
+.col-item
+{
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    background: #FFF;
+    /* margin: 25px; */
+}
+.col-item .photo img
+{
+    margin: 0 auto;
+    padding: 30px;
+    width: 100%;
+}
+
+.col-item .info
+{
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+}
+
+.col-item:hover .info {
+    background-color: white
+}
+.col-item .price
+{
+    /*width: 50%;*/
+    float: left;
+    margin-top: 5px;
+}
+.col-item:hover{
+    
+box-shadow: 5px 10px 18px silver;
+}
+.col-item .price h5
+{
+    line-height: 20px;
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.price-text-color
+{
+    color: orange;
+}
+
+.col-item .info .rating
+{
+    color: #777;
+}
+
+.col-item .rating
+{
+    /*width: 50%;*/
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+
+.col-item .separator
+{
+    border-top: 1px solid #E1E1E1;
+}
+
+.clear-left
+{
+    clear: left;
+}
+
+.col-item .separator p
+{
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.col-item .separator p i
+{
+    margin-right: 5px;
+}
+.col-item .btn-add
+{
+    padding: 5px;
+    width: 50%;
+    float: left;
+}
+
+.col-item .btn-add
+{
+    border-right: 1px solid #E1E1E1;
+}
+.hidden-sm{
+    color: black;
+}
+.hidden-sm:hover{
+    color: #187bcd;
+
+}
+
+.col-item .btn-details {
+    width: 50%;
+    float: left;
+    padding:5px;
+}
+
+.controls {
+    margin: 10px;
+}
+
+[data-slide="prev"]{
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width: 680px) {
+    
+    .col-item {
+        margin: 20px;
+    }
+
+    .col-item .info {
+        display: flex;
+    }
+    .col-item .btn-details {
+        width: 50%;
+        padding:5px;
+        float: right;
+        text-align: right;
+    }
+}
